@@ -14,4 +14,5 @@ answer = 0.5 * h * (2 + (15 / 4) ** 0.5 + 2 * np.sum(c))
 answer_simpson = 1 / 6 * h * (2 + (15 / 4) ** 0.5) + 2 / 3 * h * (np.sum(c1))+1/3*h*(np.sum(c))
 
 print(answer)
+print("assad")
 print(answer_simpson)
